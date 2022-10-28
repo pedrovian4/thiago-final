@@ -10,6 +10,7 @@ createde_at timestamp default  current_timestamp,
 update_at datetime default current_timestamp on update current_timestamp
 );
 
+
 create table Posts (id int auto_increment primary key, user_id int, img_url text,  title varchar(100), description text,
 createde_at timestamp default  current_timestamp,
 update_at datetime default current_timestamp on update current_timestamp, foreign key(user_id) references Users(id) );
