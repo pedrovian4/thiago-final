@@ -1,6 +1,6 @@
 delimiter //
 
-create function likes_by_post(id_post int)
+create function fn_likes_by_post(id_post int)
 returns int
 DETERMINISTIC
 begin 
