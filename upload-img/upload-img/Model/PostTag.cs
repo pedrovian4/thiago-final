@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace upload_img.Model
 {
-    [Table("post_tags")]
+    [Table("Post_tags")]
     public class PostTag
     {
         [Column("id")]

@@ -2,7 +2,7 @@
 
 namespace upload_img.Model
 {
-    [Table("tags")]
+    [Table("Tags")]
     public class Tag
     {
         [Column("id")]

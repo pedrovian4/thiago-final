@@ -3,7 +3,7 @@ using System.Reflection;
 
 namespace upload_img.Model
 {
-    [Table("posts")]
+    [Table("Posts")]
     public class Post
     {
         [Column("id")]

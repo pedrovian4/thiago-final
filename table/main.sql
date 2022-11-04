@@ -33,3 +33,12 @@ update_at datetime default current_timestamp on update current_timestamp,
 foreign key (post_id) references Posts(id), 
 foreign key (user_liked_id) references Users(id));
 
+create table  recomendations (
+id int auto_increment primary key,
+created_at timestamp default  current_timestamp,
+updated_at datetime default current_timestamp on update current_timestamp,
+post_id int not null,
+user_id int not null,
+foreign key (post_id) references Posts(id),
+foreign key (user_id) references Users(id)
+);
