@@ -17,7 +17,7 @@
 - recomendations
 > Contem a API em NODEJS usando EXPRESS para algumas operações com os dados mocados
 - Seeds
-> Pode ser considerado um peqeno Mock para o teste das APIS
+> Pode ser considerado um pequeno Mock para o teste das APIS
 > é possível importar as tabelas de csv para o mysql com
     ```
     LOAD DATA INFILE '/home/export_file.csv'
@@ -45,7 +45,7 @@
  dentro de upload-img  rodar o comando ```dotnet run```
 
 
-### Instalaão para rodar a API em NODEJS com express
+### Instalação para rodar a API em NODEJS com express
 ``` sudo apt install nodejs
     sudo apt install npm
     sudo apt-get update
